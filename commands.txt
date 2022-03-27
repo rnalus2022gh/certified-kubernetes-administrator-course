@@ -32,6 +32,12 @@ https://devconnected.com/create-git-branch/#:~:text=The%20easiest%20way%20to%20c
 git branch <branch_name>
 git branch feature
 git checkout <branch_name>
+git checkout feature
+make changes
+git add .
+git commit -m "comments"
+git push --set-upstream origin feautre1
 git checkout -b <branch-name>
 
 git branch -a
+

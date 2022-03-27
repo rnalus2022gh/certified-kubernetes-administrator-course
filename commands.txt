@@ -34,3 +34,5 @@ git push --set-upstream origin feautre1
 git checkout -b <branch-name>
 git branch -a
 
+**PT Pod
+kubectl run redis --image=redis --dry-run=client -o yaml > pod.yaml

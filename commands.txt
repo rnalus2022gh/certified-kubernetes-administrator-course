@@ -6,3 +6,16 @@ fourth-new branch
 git issue:
 https://stackoverflow.com/questions/19660744/git-push-permission-denied-public-key
 
+  115  git remote -v
+  116  cd ~/.ssh
+  117  ls -la
+  118  ssh-keygen -t rsa -C "rcnalus@OUTLOOK.COM"
+  121  cat id_rsa.pub
+  122  git push
+  127  git pull
+  128  git add .
+  129  git commit -m "first"
+  130  git push
+  
+  133  git remote rm origin
+  134  git remote add origin git@github.com:rnalus2022gh/certified-kubernetes-administrator-course.git

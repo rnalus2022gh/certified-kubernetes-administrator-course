@@ -20,3 +20,10 @@ https://stackoverflow.com/questions/19660744/git-push-permission-denied-public-k
   
   133  git remote rm origin
   134  git remote add origin git@github.com:rnalus2022gh/certified-kubernetes-administrator-course.git
+
+  Git branch delete - https://www.cloudbees.com/blog/git-delete-branch-how-to-for-both-local-and-remote
+  git branch -d <branch-name>
+  git branch -D <branch-name> - force delete unmerge changes
+  git push --delete <remote name> <branch name>  - You don’t use the git branch command to delete a remote branch. You use git push, even if that sounds weird. 
+
+

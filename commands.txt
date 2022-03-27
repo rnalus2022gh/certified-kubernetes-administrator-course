@@ -1,11 +1,4 @@
-first
-second
-third
-fourth-new branch
-fifth-sampleranch
-sixth branch delete
-
-git issue:
+Git issue:
 https://stackoverflow.com/questions/19660744/git-push-permission-denied-public-key
 
   115  git remote -v
@@ -39,6 +32,5 @@ git add .
 git commit -m "comments"
 git push --set-upstream origin feautre1
 git checkout -b <branch-name>
-
 git branch -a
 

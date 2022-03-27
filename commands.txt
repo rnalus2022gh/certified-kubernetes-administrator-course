@@ -26,4 +26,12 @@ https://stackoverflow.com/questions/19660744/git-push-permission-denied-public-k
   git branch -D <branch-name> - force delete unmerge changes
   git push --delete <remote name> <branch name>  - You don’t use the git branch command to delete a remote branch. You use git push, even if that sounds weird. 
 
+How To Create a Git Branch
+https://devconnected.com/create-git-branch/#:~:text=The%20easiest%20way%20to%20create,branch%20you%20want%20to%20create.&text=To%20achieve%20that%2C%20you%20will,feature%E2%80%9D%20as%20the%20branch%20name.
 
+git branch <branch_name>
+git branch feature
+git checkout <branch_name>
+git checkout -b <branch-name>
+
+git branch -a
